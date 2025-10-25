@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./jsF/script.js"></script>
+    <link rel="stylesheet" href="./CssF/style.css"></link>
+    <title>Idade</title>
+</head>
+<body class="body">
+    <div class="numeroMaior">
+        <h1>Calcular a Idade do Filho Mais Velho</h1>
+        <form id="formIdades">
+            <label for="idadeMonica">Idade da Mônica:</label>
+            <input class="idM" type="number" id="idadeMonica" required><br><br>
+
+            <label for="idadeFilhoA">Idade do Filho A:</label>
+            <input class="idFA" type="number" id="idadeFilhoA" required><br><br>
+
+            <label for="idadeFilhoB">Idade do Filho B:</label>
+            <input class="idFB" type="number" id="idadeFilhoB" required><br><br>
+
+            <button class="botao" type="button" onclick="calcularIdade()">Calcular</button>
+        </form>
+        <br>
+        <div id="resultado"></div>
+    </div>
+</body>
+</html>

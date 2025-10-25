@@ -1,0 +1,29 @@
+body{
+  background-image: url(./imgfundo.jpg);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.numeroMaior{
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.726);
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+
+.idM, .idFA, .idFB{
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.botao{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(179, 179, 255);
+    cursor: pointer;
+}
